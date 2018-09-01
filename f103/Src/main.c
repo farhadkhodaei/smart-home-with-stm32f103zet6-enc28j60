@@ -103,7 +103,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  HAL_Delay(100);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -116,8 +116,7 @@ int main(void)
 	  delay_us(50);
     //GPIOA->ODR |= (1<<10);
 	  delay_us(50);
-		HAL_Delay(1);
-    GPIOF->ODR |= 15<<6;
+		GPIOF->ODR |= 15<<6;
     ENC28J60_Init(mymac);
 		ENC28J60_ClkOut(2);
     delay_us(50);
