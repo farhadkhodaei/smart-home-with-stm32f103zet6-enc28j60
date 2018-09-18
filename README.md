@@ -14,6 +14,6 @@ PA5-7 SPI1 pins
 PF6-9 LEDs (4 LEDs).
 
 
-A screenshot of the smartlight system when used by a phone is shown tn the file: ScreenShot.jpg
+A screenshot of the smartlight system when used by a phone is shown in the file: ScreenShot.jpg
 
 
