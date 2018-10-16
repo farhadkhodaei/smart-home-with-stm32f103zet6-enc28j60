@@ -1,4 +1,4 @@
-# smart-home-with-stm32f103zet6
+# smart-home-with-stm32f103zet6-enc28j60
 
 This is similar to the "smart-home-with-stm32f030f4p6" repository but with stm32f103zet6, for being more familiar with the project.
 
